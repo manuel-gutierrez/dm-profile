@@ -1,0 +1,29 @@
+.main {
+  width: 1440px;
+  height: 600px;
+  display: flex;
+}
+.navbar {
+  height: 15%;
+}
+.aside {
+  width: 15%;
+  height: 100%;
+  border: solid black 0.5px;
+}
+.body {
+  width: 85%;
+  height: 100%;
+  border: solid black 0.5px;
+}
+.ul {
+  margin-top: 30%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.li {
+  height: 120%;
+  list-style: none;
+}

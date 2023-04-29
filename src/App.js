@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import classes from './App.module.css';
+import Navbar from "./Components/Navbar";
+import AsideButton from "./Components/AsideButton";
+import Presentation from "./Components/Presentation";
+import { Fragment } from 'react';
 
 function App() {
+  const pages = ["Home", "CV", "Cover letter", "Links"]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div className={classes.navbar}>
+        <Navbar/>
+      </div>
+      <div className={classes.main}>
+        <aside className={classes.aside}>
+          <ul className={classes.ul}>
+            { pages.map((title) => {
+              return (
+                <li className={classes.li}>
+                  <AsideButton text={title}/>
+                </li>
+                )
+              })
+            }
+          </ul>
+        </aside>
+        <body className={classes.body}>
+          <Presentation />
+        </body>
+      </div>
+    </Fragment>
   );
 }
 
