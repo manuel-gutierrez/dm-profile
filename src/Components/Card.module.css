@@ -1,0 +1,29 @@
+.main{
+    border: 3px solid #e2e8f0;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 5%;
+    width: 35%;
+    height: 45%;
+    padding:0px;
+}
+.header {
+    height: 55%;
+}
+.header img{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+.body {
+    height: 25%;
+}
+.body p{
+    margin-left: 50%;
+}
+.footer {
+    height: 10%;
+}
+.icon {
+    margin-left: 85%;
+}

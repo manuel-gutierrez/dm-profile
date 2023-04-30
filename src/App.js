@@ -1,7 +1,7 @@
 import classes from './App.module.css';
 import Navbar from "./Components/Navbar";
 import AsideButton from "./Components/AsideButton";
-import Presentation from "./Components/Presentation";
+import Body from "./Pages/Body";
 import ProfilePicture from "./profile_img.jpeg"
 import { Fragment } from 'react';
 
@@ -29,7 +29,7 @@ function App() {
           </ul>
         </aside>
         <body className={classes.body}>
-          <Presentation />
+          <Body className={classes.body}/>
         </body>
       </div>
     </Fragment>

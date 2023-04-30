@@ -1,15 +1,11 @@
 import classes from "./AsideButton.module.css";
+import LinkName   from "./AsideButtonLinks"
+import { Link } from "react-router-dom";
 
 const AsideButton = (props) => {
     return (
         <div className={classes.button}>
-            <a
-                href="https://km-robota.com"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                { props.text }
-            </a>
+            <Link className={classes.a} to={LinkName(props.text)}> {props.text} </Link>
         </div>
     )
 }
