@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className={classes.main}>
             <div className={classes.text}>
-                <p> {text} </p>
+                <h3> {text} </h3>
             </div>
         </div>
     )

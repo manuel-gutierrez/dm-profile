@@ -13,7 +13,7 @@ function App() {
       <div className={classes.main}>
         <Aside />
         <body className={classes.body}>
-          <Body className={classes.body}/>
+          <Body/>
         </body>
       </div>
     </Fragment>

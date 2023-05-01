@@ -4,7 +4,7 @@ import SocialMedia from "./SocialMedia";
 import classes from "./Aside.module.css";
 
 const Aside = () => {
-    const pages     = ["Home", "CV", "Cover letter", "Links"];
+    const pages     = ["Home", "Why", "Cover letter", "CV", "Links"];
     return(
         <aside className={classes.aside}>
             <div className={classes.profile}>
