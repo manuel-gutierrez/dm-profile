@@ -1,0 +1,16 @@
+.img_container {
+}
+.img_frame {
+    margin:1%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.why_img {
+    width: 150px;
+    height: 100px;
+}
+.img_frame img {
+    width: 150px;
+    height: 100px;
+}

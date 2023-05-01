@@ -1,12 +1,18 @@
 import classes from "./Navbar.module.css";
+import Why from "../Db/why"
+import MainImages from "./MainImages";
+import { useState } from "react";
 
 const Navbar = () => {
-    const text = "Former Control systems Engineer, with 5 years of experince﻿ working  in Web application development. Passionate to make smart grids work effectively and contribute to mitigate the cimate change."
+    const [toggleNavbar, setToggleNavbar] = useState(false);
     return (
         <div className={classes.main}>
-            <div className={classes.text}>
-                <h3> {text} </h3>
-            </div>
+            {   !toggleNavbar && <MainImages /> }
+            {   toggleNavbar &&
+                <div className={classes.text}>
+                    <h3> {Why} </h3>
+                </div>
+            }
         </div>
     )
 }
