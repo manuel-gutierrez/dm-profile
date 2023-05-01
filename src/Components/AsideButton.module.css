@@ -5,13 +5,15 @@
     width: 90%;
     height: 30px;
     background-color: rgb(248, 144, 7);
-    margin-top: 10%;
+    margin-top: 3%;
 }
 .button .a{
-    padding-top: 3%;
+    padding-top: 2%;
     color: white;
     text-decoration: solid;
+    font-weight: 600;
+    font-size:19px
 }
 .button:hover {
-    background-color: rgb(60, 0, 255);
+    background-color: #2f5297;
 }

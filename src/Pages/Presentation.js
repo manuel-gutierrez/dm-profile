@@ -1,24 +1,33 @@
 import classes from "./Presentation.module.css";
 import { Link } from "react-router-dom";
+import CamusEnergyLogo from "../Images/camus_energy_logo.png"
+import CamusEMS from "../Images/ems-monitor.jpeg"
 
 const Presentation = () => {
-    const title = ["Application to the Sofware Engineer position in", "Camus Energy"]
+    const title = ["Application to the Sofware Engineer position", "Camus Energy"]
     const name = "David Mejia";
-    const subDomain = ["Software Engineer (5 Yrs)", "MS.c Electrical Engineer (Control Systems)"]
+    const subDomain = ["Software Engineer (5 Yrs)", "MS.c Electrical Engineering"]
     return (
         <div className={classes.main}>
             <div className={classes.title}>
-                <p> {title[0]} <span className={classes.companyTitle}>{title[1]}</span></p>
+                <p> {title[0]}</p>
             </div>
-            <div className={classes.name}>
-                <p> {name} </p>
+            <div className={classes.companyTitle}>
+                <img src={CamusEnergyLogo} className={classes.companyImg} />
             </div>
-            <div className={classes.subDomain}>
-                <p> <span>{subDomain[0]} </span></p>
-                <p> {subDomain[1]} </p>
+            <div className={classes.background}>
+                <img src={CamusEMS} className={classes.ems} />
             </div>
             <div className={classes.bottom}>
-                <Link className={classes.a} to="home"> START </Link>
+                <Link className={classes.a} to="home">
+                    <div className={classes.name}>
+                        <p> {name} </p>
+                    </div>
+                    <div className={classes.subDomain}>
+                        <p> <span>{subDomain[0]} </span></p>
+                        <p> {subDomain[1]} </p>
+                    </div>
+                </Link>
             </div>
         </div>
     )

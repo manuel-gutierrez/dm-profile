@@ -1,0 +1,10 @@
+.emoticons {
+    width: 60%;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    margin: auto;
+}
+.emoticon {
+    margin: auto;
+    width: 12%;
+}

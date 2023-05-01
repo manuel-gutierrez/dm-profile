@@ -1,0 +1,34 @@
+.aside {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(252, 252, 252);
+}
+.ul {
+    margin-top:6%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.li {
+    height: 120%;
+    list-style: none;
+}
+.profile{
+    width:100%;
+    height: 30%;
+    display:flex;
+    background-color: rgb(252, 252, 252);
+}
+.img {
+    width: 55%;
+    height: 75%;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 23%;
+}
+.emoticonsContainer {
+    width: 100%;
+    height: 6%;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+}
