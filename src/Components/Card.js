@@ -9,9 +9,6 @@ const Card = (props) => {
             <div className={classes.body}>
                 {props.children}
             </div>
-            <div className={classes.footer}>
-                { props.footer }
-            </div>
         </div>
     )
 }

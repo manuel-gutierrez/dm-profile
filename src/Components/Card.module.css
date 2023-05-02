@@ -5,21 +5,15 @@
     padding: 3%;
     display: block;
     width: auto;
-    height: 550px;
 }
 .header {
     padding: 2%;
     height: 10%;
-    border: red solid 2px;;
+    /* border: red solid 2px;; */
 
 }
 .body {
-    height: 60%;
+    height: 70%;
     padding: 2%;
-    border: rgb(149, 113, 113)  solid 2px;;
-}
-.footer {
-    padding: 2%;
-    height: 10%;
-    border: blue solid 2px;
+    /* border: rgb(149, 113, 113)  solid 2px;; */
 }
