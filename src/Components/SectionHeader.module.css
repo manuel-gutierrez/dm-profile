@@ -1,0 +1,23 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    padding: 5%;
+    margin-bottom: 0px;
+}
+.main h1 {
+    margin: auto;
+    color: #0c3da0;
+    font-size: 54px;
+    margin-bottom: 2%;
+    color: black;
+}
+.main h3 {
+    margin: auto;
+    color: black;
+    color: #0c3da0;
+    width: 90%;
+    line-height: 30px;
+    white-space: normal;
+    box-sizing: border-box;
+    text-align: justify;
+}

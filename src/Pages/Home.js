@@ -10,7 +10,8 @@ import RubyTalk from "../Images/ruby_talk.png";
 import Why from "../Db/why"
 import Cv from "./cv/Cv";
 import CoverLetter from "./CoverLetter/CoverLetter";
-import Link from "./links/Links";
+import Link from "./About/About";
+import SectionHeader from "../Components/SectionHeader";
 
 const Home = () => {
     const aboutMe          = "I am David Mejia who was born and rised in Colombia - South America. For the past 5 years I have been working as a Software Engineer and my last experience was Calendly.com. I also,  hold a Master Degree In Control Systems and worked as Smart Grids researcher for 3 years. In these five years I have worked directly in more than five start ups  from the United States; as a backend developer using Ruby Python and NodeJS and as Fullstack working with Ruby on Rails plus Vue or React, and Typescript (BE and FE) connected through graphQL. Most of the projects that Ive worked has been deployed to AWS infrastructure, and in the last experience with Calendly I approached GCP."
@@ -18,11 +19,12 @@ const Home = () => {
 
     return (
         <div className={classes.main}>
-            <div className={classes.why_response_container}>
+            <SectionHeader title="Why" subTitle={Why[2]} />
+            {/* <div className={classes.why_response_container}>
                 <div className={classes.why_response}>
                     <h3>{Why[0]}</h3> <h3>{Why[1]}</h3>
                 </div>
-            </div>
+            </div> */}
             <div className={classes.about}>
                 <div className={classes.about_container}>
                     <div className={classes.header}>

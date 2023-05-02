@@ -4,7 +4,7 @@ import Presentation from "./Presentation"
 import Why from "./Home"
 import Cv from "./cv/Cv"
 import CoverLetter from "./CoverLetter/CoverLetter"
-import Links from "./links/Links"
+import About from "./About/About"
 
 const Body = () => {
   return (
@@ -13,8 +13,8 @@ const Body = () => {
         <Route path="/home" element={ <Presentation/> } />
         <Route path="/Why" element={ <Why/> } />
         <Route path="/cv" element={ <Cv/> } />
-        <Route path="/cover_letter" element={ <CoverLetter/> } />
-        <Route path="/links" element={ <Links/> } />
+        <Route path="/cover-letter" element={ <CoverLetter/> } />
+        <Route path="/about" element={ <About/> } />
       </Routes>
   )
 }

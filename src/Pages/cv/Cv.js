@@ -4,6 +4,8 @@ import Frame2011 from "./Componets/Frame2011"
 import cvData from "../../Db/cv"
 import { useState } from "react"
 import { useEffect } from "react"
+import SectionHeader from "../../Components/SectionHeader";
+import Why from "../../Db/why";
 
 
 const Cv = () => {
@@ -43,14 +45,17 @@ const Cv = () => {
         })
     }
     return (
-        <div className={classes.main}>
-            <div className={classes.timeline}>
-                <div className={classes.tube}>
-                    {years()}
+        <div>
+            <SectionHeader title="Curriculum Vitae" subTitle={Why[0]} />
+            <div className={classes.main}>
+                <div className={classes.timeline}>
+                    <div className={classes.tube}>
+                        {years()}
+                    </div>
                 </div>
-            </div>
-            <div className={classes.information}>
-                {contentCards()}
+                <div className={classes.information}>
+                    {contentCards()}
+                </div>
             </div>
         </div>
     )
