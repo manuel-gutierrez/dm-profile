@@ -1,0 +1,14 @@
+.main {
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+}
+.text {
+    width: 50%;
+    justify-content: center;
+}
+.bullets {
+    width: 50%;
+    line-height: 200%;
+    justify-content: justify;
+}

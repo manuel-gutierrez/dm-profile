@@ -1,11 +1,11 @@
 import classes from "./Cv.module.css"
 import Card from "../../Components/Card"
-import Frame2011 from "./Componets/Frame2011"
 import cvData from "../../Db/cv"
 import { useState } from "react"
 import { useEffect } from "react"
 import SectionHeader from "../../Components/SectionHeader";
 import Why from "../../Db/why";
+import CvComponents from "./Componets/ComponentDictionary";
 
 
 const Cv = () => {
@@ -19,9 +19,8 @@ const Cv = () => {
     }
 
     const contentCards = ()=>{
-        const cardChildren = ["undergrad"]
         const cards =Object.keys(cvData.cvCards)
-        const children = (id) => cardChildren.includes(id) ? <Frame2011 /> : <p> Hola david mejia </p>;
+        const children = (componentName) => CvComponents[componentName];
         return cards.map((id) => {
                 return (
                     <div id = {id} className={classes.info_container}>

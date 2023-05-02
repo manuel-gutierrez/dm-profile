@@ -1,6 +1,6 @@
-import classes from "./Frame2011.module.css";
+import classes from "./Undergrad.module.css";
 
-const Frame2011 = () => {
+const Undergrad = () => {
     return (
         <div className={classes.main}>
             <iframe
@@ -13,4 +13,4 @@ const Frame2011 = () => {
         </div>
     )
 }
-export default Frame2011;
+export default Undergrad;

@@ -1,0 +1,30 @@
+.main {
+    margin: auto;
+    border: cyan solid 1px;
+    width: 100%;
+    height: 100%;
+}
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img_framework {
+    overflow-x: scroll;
+    width: 48%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.image img {
+    padding: 10px;
+    width: 250px;
+    height: 240px;
+    padding-left: 2px;
+}
+.children {
+    width: 48%;
+    overflow: scroll;
+    height: 300px;
+    border: violet;
+}
