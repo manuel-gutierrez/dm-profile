@@ -12,12 +12,12 @@
     justify-content: center;
     font-size: 37px;
 }
-.companyTitle {
+/* .companyTitle {
     width: 100%;
     height: 10%;
     display: flex;
     justify-content: center;
-}
+} */
 .companyImg {
     width: 40%;
     height: 100%;
@@ -33,6 +33,7 @@
     width: 60%;
     height: 60%;
     z-index: -1;
+    margin-left:-8%
 }
 .name {
     margin-top: -5%;
@@ -46,15 +47,11 @@
     margin-bottom: 0px;
 }
 .subDomain {
-    /* margin-top: -5%;
-    margin-bottom: 7%;
-    margin-left: 20%;
-    margin-bottom: 4%; */
     margin-top: 5%;
-    margin-left: 26%;
+    margin-left: 17%;
     width: 100%;
     display: flex;
-    font-size: 15px;
+    font-size:20px;
     justify-content: center;
     flex-direction: column;
 }
@@ -63,31 +60,39 @@
     margin-bottom: 0px;
     width: 100%;
 }
-.subDomain p span{
+.subDomain span{
+    margin-left: 10%;
+    width: 10px;
 }
 .bottom {
-    width:44%;
-    height: 20%;
-    margin-left: 36%;
-    margin-top: -27.5%
+    border-radius: 30px;
+    width:46%;
+    margin-left: 27.5%;
+    margin-top: 25.5%;
 
 }
 .bottom .a{
+    border: orange solid 2px;
+    padding: 1.7%;
+    border-radius: 30px;
     text-decoration: none;
     background-color: white;
     color: black;
-    font-size: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
     height: 98%;
 }
-.bottom:hover {
+.title {
+    flex-direction: column;
+    margin-left: 5%;;
+}
+.bottom .a:hover {
     color: white;
     background-color: #2f5297;
 }
-.bottom .a:hover {
+.title p span:hover {
     color: white;
     background-color: #2f5297;
 }
