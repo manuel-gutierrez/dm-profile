@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AsideButton = (props) => {
     return (
         <div className={classes.button}>
-            <Link className={classes.a} to={LinkName(props.text)}> {props.text} </Link>
+            <Link className={classes.a} to={props.text}> {props.text} </Link>
         </div>
     )
 }

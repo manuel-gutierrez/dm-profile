@@ -2,28 +2,24 @@
     border: 3px solid #e2e8f0;
     border-radius: 30px;
     box-sizing: border-box;
-    padding: 5%;
-    width: 35%;
-    height: 45%;
-    padding:0px;
+    padding: 3%;
+    display: block;
+    width: auto;
+    height: 550px;
 }
 .header {
-    height: 55%;
-}
-.header img{
-    width: 80%;
-    height: 100%;
-    margin-left: 10%;
+    padding: 2%;
+    height: 10%;
+    border: red solid 2px;;
+
 }
 .body {
-    height: 25%;
-}
-.body p{
-    margin-left: 50%;
+    height: 60%;
+    padding: 2%;
+    border: rgb(149, 113, 113)  solid 2px;;
 }
 .footer {
+    padding: 2%;
     height: 10%;
-}
-.icon {
-    margin-left: 85%;
+    border: blue solid 2px;
 }

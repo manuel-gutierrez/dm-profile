@@ -11,7 +11,7 @@ const Body = () => {
       <Routes>
         <Route path="/" element={ <Presentation/> } />
         <Route path="/home" element={ <Presentation/> } />
-        <Route path="/why" element={ <Why/> } />
+        <Route path="Why" element={ <Why/> } />
         <Route path="/cv" element={ <Cv/> } />
         <Route path="/cover_letter" element={ <CoverLetter/> } />
         <Route path="/links" element={ <Links/> } />

@@ -1,6 +1,6 @@
 .main {
     margin-top:2%;
-    margin-left:7%;
+    margin-left:20%;
     width: 70%;
     height: 96%;
     display:flex;
@@ -10,6 +10,6 @@ iframe {
     border:solid black 0.9px;
     margin:0px;
     padding: 0px;
-    height: 100%;
+    height: 900px;
     overflow: visible;
 }

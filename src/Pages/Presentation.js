@@ -19,7 +19,7 @@ const Presentation = () => {
                 <img src={CamusEMS} className={classes.ems} />
             </div>
             <div className={classes.bottom}>
-                <Link className={classes.a} to="why">
+                <Link className={classes.a} to="Why">
                     <div className={classes.name}>
                         <p> {name} </p>
                     </div>

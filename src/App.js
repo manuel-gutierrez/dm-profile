@@ -12,7 +12,7 @@ function App() {
       </div>
       <div className={classes.main}>
         <Aside />
-        <body className={classes.body}>
+        <body id="david" className={classes.body}>
           <Body/>
         </body>
       </div>

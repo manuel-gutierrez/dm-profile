@@ -7,15 +7,19 @@
     border:red;
 
 }
-.why_response {
-    padding-top: 3%;
+.why_response_contaioer {
+    margin-top:2%;
     display: flex;
 }
-.why_response h3 {
-    margin-left: 5%;
+.why_response {
+    margin-top:2%;
     padding: 2%;
-    font-size:16px;
+    display: flex;
+    flex-direction: column;
     border: orange 2px solid;
+}
+.why_response h3 {
+    margin-top:1px;
 }
 .about {
     display: flex;
