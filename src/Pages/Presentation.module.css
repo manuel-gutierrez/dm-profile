@@ -88,11 +88,13 @@
     flex-direction: column;
     margin-left: 5%;;
 }
-.bottom .a:hover {
+.bottom .a:hover{
     color: white;
     background-color: #2f5297;
+    cursor: pointer;
 }
-.title p span:hover {
+.bottom .a:hover span{
     color: white;
     background-color: #2f5297;
+    cursor: pointer;
 }
