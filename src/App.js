@@ -7,12 +7,9 @@ import { Fragment } from 'react';
 function App() {
   return (
     <Fragment>
-      <div className={classes.navbar}>
-        <Navbar/>
-      </div>
       <div className={classes.main}>
         <Aside />
-        <body id="david" className={classes.body}>
+        <body className={classes.body}>
           <Body/>
         </body>
       </div>

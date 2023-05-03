@@ -1,11 +1,11 @@
-import classes from "./About.module.css"
+import classes from "./Links.module.css"
 import SectionHeader from "../../Components/SectionHeader";
 
-const About = () => {
+const Links = () => {
     const subTitle = "Making the best of this life experience, passionate for Technology and the posibility to make people life better through Engineering";
     return (
         <div>
-            <SectionHeader title="About" subTitle={subTitle} />
+            <SectionHeader title="Links" subTitle={subTitle} />
             <section>
                 <h1>Profile</h1>
             </section>
@@ -16,4 +16,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Links;

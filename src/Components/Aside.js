@@ -4,7 +4,7 @@ import SocialMedia from "./SocialMedia";
 import classes from "./Aside.module.css";
 
 const Aside = () => {
-    const pages = ["Home", "Why", "Cover letter", "CV", "About"];
+    const pages = ["Why", "Cover letter", "Milestones", "Links"];
     return(
         <aside className={classes.aside}>
             <div className={classes.profile}>
@@ -13,16 +13,16 @@ const Aside = () => {
             <div className={classes.emoticonsContainer}>
                 <SocialMedia />
             </div>
-            <ul className={classes.ul}>
+            <div className={classes.ul}>
             { pages.map((title) => {
                 return (
-                <li className={classes.li}>
+                <div className={classes.li}>
                     <AsideButton text={title}/>
-                </li>
+                </div>
                 )
                 })
             }
-            </ul>
+            </div>
         </aside>
     )
 }

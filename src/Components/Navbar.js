@@ -7,7 +7,7 @@ const Navbar = () => {
     const [toggleNavbar, setToggleNavbar] = useState(false);
     return (
         <div className={classes.main}>
-            {   !toggleNavbar && <MainImages /> }
+            {/* {   !toggleNavbar && <MainImages /> } */}
             {   toggleNavbar &&
                 <div className={classes.text}>
                     <h3> {Why} </h3>

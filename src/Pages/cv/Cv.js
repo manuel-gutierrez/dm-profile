@@ -61,7 +61,7 @@ const Cv = () => {
     })
     return (
         <div>
-            <SectionHeader title="Curriculum Vitae" subTitle={Why[0]} />
+            <SectionHeader title="Milestones" subTitle={Why[0]} />
             <div className={classes.main}>
                 <div className={classes.timeline}>
                     <div className={classes.tube}>
