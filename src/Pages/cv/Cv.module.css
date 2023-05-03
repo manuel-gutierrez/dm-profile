@@ -22,13 +22,12 @@
     background-color: orange;
 }
 .year {
-    margin-left: -33%;
+    margin-left: -53%;
     border-radius: 50%;
     background-color: white;
-    color: #cad0d8;
     font-weight: 400;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     border: #2f5297 dotted 4px;
     display: flex;
     margin-top: 100px;
@@ -38,12 +37,16 @@
     margin-left: -65%;
     width: 100px;
     height: 100px;
-    border: #2f5297 solid 5px;
+    background-color: #2f5297;
 }
 span {
+    font-weight: 600;
     margin-top:35%;
     margin-left:28%;
     color: black;
+}
+.year:hover span{
+    color: white;
 }
 .info_container {
     position: absolute;

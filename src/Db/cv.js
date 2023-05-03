@@ -24,7 +24,7 @@ const cvCards = {
         ]
     },
     "docketwise": {
-        "title": "An Inpiring entrepeneur company",
+        "title": "An Inpiring startUp company",
         "children": "true",
         "bullets": [
             "Was contacted to contribute to expanding the product from a single smart forms and simple  case management system to a powerful attorneys tool.",

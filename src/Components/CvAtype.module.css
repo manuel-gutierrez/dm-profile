@@ -1,7 +1,7 @@
 .main {
     margin: auto;
     border: 3px solid #e2e8f0;
-    border-radius: 30px;
+    border-radius: 20px;
     width: 100%;
     height: 100%;
 }
@@ -28,5 +28,5 @@
     width: 48%;
     overflow: scroll;
     height: 300px;
-    border: violet;
+    border-left: 3px solid #cad0d8;
 }

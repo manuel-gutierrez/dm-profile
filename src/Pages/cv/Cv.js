@@ -11,7 +11,7 @@ const Cv = () => {
 
     const calculateMaxYpos = () => {
         const lastYear = document.getElementById("2012");
-        setMaxYpos(lastYear.offsetTop - 100)
+        setMaxYpos(lastYear.offsetTop - 70)
     }
 
 
