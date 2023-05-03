@@ -1,5 +1,5 @@
 .main{
-    border: 3px solid #cad0d8;
+    border: 3px solid orange;
     border-radius: 30px;
     box-sizing: border-box;
     padding: 3%;
@@ -18,7 +18,7 @@
     margin:auto
 }
 .body {
-    height: 70%;
+    height: 80%;
     padding: 2%;
     /* border: rgb(149, 113, 113)  solid 2px;; */
 }

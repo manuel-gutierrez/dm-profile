@@ -13,25 +13,13 @@
     width:35%;
     border-bottom: solid rgb(174, 172, 172) 1.5px;
 }
-.about .body {
-    overflow: scroll;
-}
+
 .about .body p{
-    padding-top: 2%;
+    padding-top: 1%;
+    padding-right: 1%;
     font-weight: 300;
-    font-size:18px;
-    line-height: 28px;
-}
-::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 7px;
-}
-::-webkit-scrollbar-thumb {
-border-radius: 4px;
-background-color: rgba(0, 0, 0, .5);
--webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
-}
-.img_container {
+    font-size:16px;
+    line-height: 1.8;
 }
 .img_frame {
     margin: auto;
@@ -42,13 +30,23 @@ background-color: rgba(0, 0, 0, .5);
     width: 100%;
 }
 .why_img {
-    width: 250px;
+    width: 270px;
     height: 250px;
     margin-left: 1%;
     margin-bottom: 1%;
 }
 .img_frame img {
-    border-radius: 35px;;
-    width: 250px;
+    border-radius: 35px;
+    width: 270px;
     height: 250px;
+}
+p .textInBold{
+    font-weight: 600;
+    color:black;
+    margin: 0px !important;
+}
+p .calendly{
+    font-weight: 600;
+    color:blue;
+    margin: 0px !important;
 }

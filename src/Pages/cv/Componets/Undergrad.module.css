@@ -1,8 +1,11 @@
 .main{
     width: 100%;
-    height: 350px;
+    height: 250px;
 }
 .main iframe {
+    padding:2%;
+    border-radius: 20px;
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }

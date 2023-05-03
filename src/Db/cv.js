@@ -78,7 +78,7 @@ const cvCards = {
         ]
     },
     "make_it": {
-        "title": "From EE to SE throught Make it Real The bootcamp",
+        "title": "From EE to SE throught Make it Real Camp",
         "children": "true",
         "bullets": [
             "Enroll Make it real camp that was a 4 months Full Stack development bootcamp using Ruby and Javascript languages.",
