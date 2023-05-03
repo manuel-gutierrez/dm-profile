@@ -36,7 +36,7 @@ const cvCards = {
         ]
     },
     "leantech": {
-        "title": "Lean Tech: Speeding up my tech and ledearship Skills",
+        "title": "Speeding up my tech and ledearship Skills",
         "children": "true",
         "bullets": [
             "Internal project: Fetch, parse and organize developers information form:  github, bitbucket, clockify, jira apis data using Python.",
@@ -49,7 +49,7 @@ const cvCards = {
         ]
     },
     "one-one": {
-        "title": "Getting back to study to close the gap between EE and CS",
+        "title": "Closing the gap between EE and CS",
         "children": "true",
         "bullets": [
             "Algorithms and Data Structures with professor Tim Rougarden material (videos and books)",

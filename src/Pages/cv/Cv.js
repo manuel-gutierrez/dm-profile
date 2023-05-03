@@ -50,19 +50,19 @@ const Cv = () => {
         })
         cardIds.map((cardId) => {
             const element = document.getElementById(cardId);
-            element.style.top = parseInt(yPosition) + "px";
+            element.style.top = parseInt(yPosition - 100) + "px";
             element.style.display = "block";
-            yPosition += 600;
+            yPosition += 425;
         })
     }
-    
+
     useEffect(() => {
         const element = document.getElementById("running");
         element.style.display = "block";
     })
     return (
         <div>
-            <SectionHeader title="Milestones" subTitle={Why[0]} />
+            <SectionHeader title="Resume" subTitle={Why[0]} />
             <div className={classes.main}>
                 <div className={classes.timeline}>
                     <div className={classes.tube}>

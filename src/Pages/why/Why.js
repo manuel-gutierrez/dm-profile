@@ -48,7 +48,9 @@ const Why = () => {
                 <span className={classes.textInBold}>  relational databases </span> and other
                 <span className={classes.textInBold}>  No relational databases</span> as well as
                 <span className={classes.textInBold}> messaging systems</span>.
-                In terms of Fullstack  web development I have worked with several modern Javascript
+                In terms of
+                <span className={classes.textInBold}> Fullstack</span> web development
+                  I have worked with several modern Javascript
                 <span className={classes.textInBold}> Frameworks  </span>, all deployed principally to
                 <span className={classes.textInBold}> AWS infrastructure </span>
                 , however in the last experience with Calendly I approached.
@@ -56,7 +58,11 @@ const Why = () => {
             </p>
         )
     }
-    const aboutCamusEnergy = ["After 5 years enjoying working in different start ups as Backend end and Fullstak developer with different programing languages  I would like to meet a new endeveour where I can work in an application with the economical big impact on people lifes, and technical challenges as [Calendly.com](http://Calendly.com) the scheduling Saas that currently have more than 10M active users, The second most important thing now is to get a place where the spirit energy and talent of [Order.co](http://Order.co) allowed me  beign part of a small Engineering team of 7, to  learnt the best Software Engineering practices from build and spining up a brand new services to multiple backend integrations with a deep understand of Quality guided by Unit testing.", "To sum up I want to combine the advantages of a potential Unicorn, with the energy, and chances to contribute in an early stage start up. And most important, is Camus Energy product itself since Energy in particular, Microgrids, storage systems at scale, Electric vehicles and Smart grids in general has been my favorite and most curious interest since 2012. I started working in Smart grids topics in my last year of E.E undergrad when I saw the necessity for the world, the big and interesting engeneering challenges, and the huge impact in climate change that these new way of building power systems could bring. I demostrate this pasion when I lead and built a Smart Grid model with its Scada that I programed in labview who interacted with its own propietary RTUs. Furthermore I got partularly intered in Micorgids operation and Economic Dispatch so that my Master thesis was focused in the optimal integration of high penetration of RES in a distribution system."]
+    const aboutCamusEnergy = [
+        "After  enjoying working in different start ups -and industries- with different tech stacks and diverse teams I am focusing my efforts towards my next proffesional mission to join an early stage start up were I can contribute significantly in the development, growing and succeed of the product and the company. In that regard, my preferences are to continue working as Fullstack developer in a tech company were the software product is science or engineering oriented.  Therefore, the company and its grid management platform fits perfectly whay Im looking for right now."
+        ,"Camus Energy ofers a unique carrer opportunity to me because it combines the Business purpuse of significantly meet the carbonfoot print reduction from my academic expertice with my current practice as Software engineer. I found in Camus the perfect  place to reconcile my passions and knowledge while contributing  to the world by helping to mitigate climate change."
+    ]
+
     return (
         <div>
             <SectionHeader title="Why" subTitle={whyText[2]} />
@@ -84,7 +90,7 @@ const Why = () => {
                 </div>
                 <div className={classes.about_container}>
                     <div className={classes.header}>
-                        <h2> About Camus Energy Tech</h2>
+                        <h2> About Camus</h2>
                     </div>
                     <div className={classes.body}>
                         <p> {aboutCamusEnergy[0]}</p>
