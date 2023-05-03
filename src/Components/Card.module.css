@@ -4,7 +4,8 @@
     box-sizing: border-box;
     padding: 3%;
     display: block;
-    width: auto;
+    width:700px;
+    height: 400px;
 }
 .header {
     padding: 2%;

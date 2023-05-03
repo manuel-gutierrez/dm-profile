@@ -55,6 +55,7 @@ const Cv = () => {
             yPosition += 600;
         })
     }
+    
     useEffect(() => {
         const element = document.getElementById("running");
         element.style.display = "block";

@@ -19,7 +19,7 @@ const CvAtype = (props) => {
                     {getImages()}
                 </div>
                 <div className={classes.children}>
-                    { props.children }
+                    <p>{ props.children }</p>
                 </div>
             </div>
         </div>

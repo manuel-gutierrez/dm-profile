@@ -4,12 +4,20 @@
     height: 96%;
     display:flex;
     flex-direction: column;
+    justify-content: center;
 }
-iframe {
-    border:solid black 0.9px;
-    width: 70%;
-    margin: auto;
-    padding: 0px;
-    height: 900px;
-    overflow: visible;
+.button {
+    width: 25%;
+    height: 20%;
+    border-radius: 30px;;
+    background-color: orange;
+    color:white;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+.button :hover {
+    border-radius: 30px;
+    background-color: #2f5297;
+    color:white;
+    opacity: 0.3;
 }
