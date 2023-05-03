@@ -1,4 +1,4 @@
-import Img from "../../../Images/maraton.png"
+import Img from "../../../Images/makeit.jpeg"
 import Base from "./Base"
 
 const Makeit = (props) => {

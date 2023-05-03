@@ -4,11 +4,17 @@ import cvData from "../../Db/cv"
 import SectionHeader from "../../Components/SectionHeader";
 import Why from "../../Db/why";
 import CvComponents from "./Componets/ComponentDictionary";
-import { useEffect } from "react";
-
+import { useEffect, useState } from "react";
 
 const Cv = () => {
-    const MAX_Y_POS = 4527;
+    const [maxYpos, setMaxYpos] = useState(0)
+
+    const calculateMaxYpos = () => {
+        const lastYear = document.getElementById("2012");
+        setMaxYpos(lastYear.offsetTop - 100)
+    }
+
+
     const addYears = () => {
         return cvData.years.map((value) => {
             return (
@@ -31,12 +37,13 @@ const Cv = () => {
             }
         )
     }
+
     const activateYear = (e) => {
+        if(maxYpos == 0) calculateMaxYpos();
         const year = e.target.id;
         const cardIds = cvData.dynamic[year];
         const reference = document.getElementById(year);
-        reference.classList.add("show")
-        let yPosition = Math.min(MAX_Y_POS, reference.offsetTop);
+        let yPosition = Math.min(maxYpos, reference.offsetTop);
         Object.keys(cvData.cvCards).map((cardId) => {
             const element = document.getElementById(cardId);
             element.style.display = "none";

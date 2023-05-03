@@ -4,7 +4,7 @@ const Card = (props) => {
     return (
         <div className={classes.main}>
             <div className={classes.header}>
-                <h3> {props.title} </h3>
+                <h2> {props.title} </h2>
             </div>
             <div className={classes.body}>
                 {props.children}

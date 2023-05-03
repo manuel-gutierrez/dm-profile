@@ -1,9 +1,12 @@
-import Img from "../../../Images/maraton.png"
-import CvBtype from "../../../Components/CvBtype";
+import Img from "../../../Images/calendlylogo.jpeg"
+import Base from "./Base"
 
 const Calendly = (props) => {
+    const images = [
+        Img
+    ]
     return (
-        <CvBtype bullets={props.bullets} text ={props.bullets}/>
+        <Base title={""} bullets={props.bullets} images={images} />
     )
 }
 export default Calendly;

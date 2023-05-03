@@ -1,5 +1,5 @@
 .main{
-    border: 3px solid #e2e8f0;
+    border: 3px solid #cad0d8;
     border-radius: 30px;
     box-sizing: border-box;
     padding: 3%;
@@ -9,8 +9,12 @@
 .header {
     padding: 2%;
     height: 10%;
+    display:flex;
     /* border: red solid 2px;; */
 
+}
+.header h2{
+    margin:auto
 }
 .body {
     height: 70%;

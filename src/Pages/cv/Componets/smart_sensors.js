@@ -1,12 +1,8 @@
-import Img from "../../../Images/maraton.png"
-import Base from "./Base"
+import CvBtype from "../../../Components/CvBtype";
 
 const SmartSensors = (props) => {
-    const images = [
-        Img
-    ]
     return (
-        <Base title={""} bullets={props.bullets} images={images} />
+        <CvBtype bullets={props.bullets} text ={props.bullets}/>
     )
 }
 export default SmartSensors;

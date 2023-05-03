@@ -1,4 +1,4 @@
-import Img from "../../../Images/maraton.png"
+import Img from "../../../Images/newyork2.png"
 import Base from "./Base"
 
 const Docketwise = (props) => {

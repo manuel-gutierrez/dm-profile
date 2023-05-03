@@ -2,9 +2,7 @@ import Img from "../../../Images/maraton.png"
 import Base from "./Base"
 
 const Running = (props) => {
-    const images = [
-        Img
-    ]
+    const images = [Img]
     return (
         <Base title={""} bullets={props.bullets} images={images} />
     )

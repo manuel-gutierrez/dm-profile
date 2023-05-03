@@ -12,7 +12,7 @@ const cvCards = {
         ]
     },
     "calendly": {
-        "title": "Calendly Fullstack III: Meeting Unicorn company",
+        "title": "Meeting a 10M active users company (and its tech challenges)",
         "children": "true",
         "bullets": [
             "Joined Calendly as the first Latin America Engineer, after a 5 steps though interview process.",
@@ -24,9 +24,9 @@ const cvCards = {
         ]
     },
     "docketwise": {
-        "title": "",
+        "title": "An Inpiring entrepeneur company",
         "children": "true",
-        "billing": [
+        "bullets": [
             "Was contacted to contribute to expanding the product from a single smart forms and simple  case management system to a powerful attorneys tool.",
             "Fullstack developer building end to end new features.",
             "File system manager using web sockets",
@@ -36,12 +36,12 @@ const cvCards = {
         ]
     },
     "leantech": {
-        "title": "",
+        "title": "Lean Tech: Speeding up my tech and ledearship Skills",
         "children": "true",
         "bullets": [
             "Internal project: Fetch, parse and organize developers information form:  github, bitbucket, clockify, jira apis data using Python.",
             "Worked in two different Transportation management systems (TMS) with clients in Usa and Canada.",
-            "It allowed me to strengthen my sql knowledge by optimizing queries and building scripts in the database management systems. I also worked with Postgis for full truck routing and fleet tracking.",
+            "Strengthen my sql knowledge by optimizing queries and building scripts in the database management systems. I also worked with Postgis for full truck routing and fleet tracking.",
             "lead a team of 3 more developers in a new version of Trinet Logistics (Montreal 3PL company.)  TMS.",
             "speed up my learning process in Typescript Graphql (0 prior knowledge).",
             "refactoring (70% backend, 20% frontend).",
@@ -49,7 +49,7 @@ const cvCards = {
         ]
     },
     "one-one": {
-        "title": "",
+        "title": "Getting back to study to close the gap between EE and CS",
         "children": "true",
         "bullets": [
             "Algorithms and Data Structures with professor Tim Rougarden material (videos and books)",
@@ -66,7 +66,7 @@ const cvCards = {
         ]
     },
     "order": {
-        "title": "",
+        "title": "Best software engineering experience so far",
         "children": "true",
         "bullets": [
             "Collaborate building a service called Vendor Bridge in a service oriented arquitecture to connect Order core monolith with the diferent client vendors.",
@@ -78,7 +78,7 @@ const cvCards = {
         ]
     },
     "make_it": {
-        "title": "",
+        "title": "From EE to SE throught Make it Real The bootcamp",
         "children": "true",
         "bullets": [
             "Enroll Make it real camp that was a 4 months Full Stack development bootcamp using Ruby and Javascript languages.",
@@ -86,7 +86,7 @@ const cvCards = {
         ]
     },
     "smart_sensors": {
-        "title": "",
+        "title": "First etrepeneur experience",
         "children": "true",
         "bullets": [
             "Enroll Make it real camp that was a 4 months Full Stack development bootcamp using Ruby and Javascript languages.",
@@ -94,7 +94,7 @@ const cvCards = {
         ]
     },
     "isgt": {
-        "title": "",
+        "title": "Present a paper in an IEEE conference: A dream come true.",
         "children": "true",
         "bullets": [
             "Paper presentation in the Innovative smart grids technologies 2016 North America",
@@ -104,7 +104,7 @@ const cvCards = {
         ]
     },
     "projects": {
-        "title": "",
+        "title": "Smart grids research project Summary",
         "children": "true",
         "bullets": [
             "With several Undergrad students we create a model that shows and demonstrate the most important concepts of a smart grids such as:",
@@ -120,16 +120,15 @@ const cvCards = {
         ]
     },
     "silice_3": {
-        "title": "",
+        "title": "Smart grids researcher leading SILICE III project",
         "children": "true",
         "bullets": [
-            "I started as Smart grids researcher leading the SILICE III I Pontificia Universidad Javeriana PART.",
             "I visited Sao Paulo for the Innovative in smart grids (latam) 2013 to gain knoledge for desinging a smart grids model.",
             "Talked to FIU Professor Osama A. Mohammed who inspired me to pursue my path in Smart grids."
         ]
     },
     "undergrad_proyect": {
-        "title": "",
+        "title": "The begining of my research journey in MGs and SGs",
         "children": "true",
         "bullets": [
             "Recruit two students to help to build a microgrid laboratory test bed.",
@@ -137,9 +136,10 @@ const cvCards = {
         ]
     },
     "undergrad": {
-        "title": "",
+        "title": "Grad course with the most expert proffesors in Colombia",
         "children": "true",
         "bullets": [
+            "That course was my introduction to Smart grids and the origin of my Bachelor Thesis"
         ]
     }
 }
@@ -163,7 +163,7 @@ const dynamic = {
     "2022": ["calendly", "docketwise"],
     "2021": ["docketwise", "leantech"],
     "2020": ["leantech"],
-    "2019": ["order", "one-one"],
+    "2019": ["one-one", "order"],
     "2018": ["order"],
     "2017": ["make_it","smart_sensors"],
     "2016": ["isgt"],

@@ -1,4 +1,4 @@
-import Img from "../../../Images/maraton.png"
+import Img from "../../../Images/i_love_microgrids.jpeg"
 import Base from "./Base"
 
 const Silice = (props) => {
