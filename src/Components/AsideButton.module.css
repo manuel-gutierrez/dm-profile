@@ -1,14 +1,17 @@
 .button {
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: start;
     width: 100%;
     height: 60px;
+
 }
-.button .a{
+
+.button  {
     padding-top: 2%;
     color: black;
     font-weight: 500;
-    font-size: 22px
+    font-size: 22px;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -16,5 +19,14 @@
     background-color:  orange;
     font-weight: 600;
     color: white;
-    font-size: 28px
+    font-size: 28px;
+    text-decoration: none;
 }
+/* Media query for the menu  */
+@media only screen and (max-width: 768px) {
+	/* Re-order content for mobile */
+	.button, .button:hover  {
+		font-size: 14px;
+	}
+}
+	

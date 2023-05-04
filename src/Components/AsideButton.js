@@ -1,13 +1,13 @@
 import classes from "./AsideButton.module.css";
-import LinkName   from "./AsideButtonLinks"
-import { Link } from "react-router-dom";
-
+//  Aside button is in the nav element.
+//  therefore the syntax should be around <a> tag.
 const AsideButton = (props) => {
-    return (
-        <div className={classes.button}>
-            <div className={classes.a} to={props.text}> {props.text} </div>
-        </div>
-    )
-}
+	return (
+		// rome-ignore lint/a11y/useValidAnchor: <react syntax>
+		<a className={classes.button} href={`#${props.id}`}>
+			{props.text}
+		</a>
+	);
+};
 
 export default AsideButton;

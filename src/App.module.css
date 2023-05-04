@@ -1,20 +1,26 @@
-.main {
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
   width: 100%;
-  display: flex;
-  margin-top:2%;
+  height: 100%;
 }
+
+.main {
+  display: flex;
+}
+
+/* TODO: Remove */
 .navbar {
   height: 15%;
   overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
 }
 .body {
-  margin-left: 20%;
-  width: 80%;
-  display: flex;
-  justify-content: center;
+  order: 1;
+  display: inherit;
+  justify-content: flex-start;
+  background-color: blue;
 }
 body {
   font-family: 'Lexend Deca',sans-serif;
@@ -23,3 +29,12 @@ body {
 body{
   /* font-family: 'Bungee Inline', cursive; */
 }
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+	/* Re-order content for mobile */
+	.main {
+		  flex-wrap: wrap;
+	}
+
+}
+

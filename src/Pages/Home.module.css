@@ -1,11 +1,10 @@
 .main {
     width: 90%;
     height: 100%;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
-.why_response_contaioer {
+.why_response_container {
     margin-top:2%;
     display: flex;
 }
